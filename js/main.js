@@ -48,8 +48,7 @@ function newElement() {
     tbody.appendChild(tr);
   }
   
-  inputValue = '';
+  document.getElementById('myInput').value='';
 
   console.log(tr);
-
 }
